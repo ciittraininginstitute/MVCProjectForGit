@@ -26,5 +26,12 @@ namespace MVCProjectForGit.Controllers
 
             return View();
         }
+        
+         public ActionResult FirstAction()
+        {
+            ViewBag.Message = "New action added";
+
+            return View();
+        }
     }
 }
